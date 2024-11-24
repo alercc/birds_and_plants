@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0df9331e8eb4aba1b84694c46a2ffe8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0df9331e8eb4aba1b84694c46a2ffe8c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0df9331e8eb4aba1b84694c46a2ffe8c = L.map(
+                "map_0df9331e8eb4aba1b84694c46a2ffe8c",
+                {
+                    center: [-15.790707, -47.892676],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2fb09a46ea505b4ec7c3efb915ac142f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2fb09a46ea505b4ec7c3efb915ac142f.addTo(map_0df9331e8eb4aba1b84694c46a2ffe8c);
+        
+    
+            var marker_57727541b2f1e9a6728bfbc6f0c82bb6 = L.marker(
+                [-15.837292342147903, -47.90125878707489],
+                {}
+            ).addTo(map_0df9331e8eb4aba1b84694c46a2ffe8c);
+        
+    
+        var popup_9a7418083be8af52e32cd243d178268e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e45df88de01614de70f153eeb0011fba = $(`<div id="html_e45df88de01614de70f153eeb0011fba" style="width: 100.0%; height: 100.0%;">     <div style="         font-family: Arial, sans-serif;         color: black;         background-color: #f9f9f9;         padding: 10px;         border-radius: 8px;         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);         width: 200px;     ">         <h3 style="color: #2c7efc;">Parque Deck Sul</h3>         <h5 style="color: #2c7efc;">(Parque dos Pioneiros Cláudio Sant'Anna)</h5>         <p><b>Pássaros:</b></p>         <ul>             <li>Curicaca</li>             <li>Sabiá-laranjeira</li>             <li>João-de-barro</li>             <li>Choca-barrada</li>             <li>Carão</li>             <li>Ferreirinho-relógio</li>             <li>Sanhaço-cinzento</li>             <li>Curutié</li>         </ul>     </div>     </div>`)[0];
+                popup_9a7418083be8af52e32cd243d178268e.setContent(html_e45df88de01614de70f153eeb0011fba);
+            
+        
+
+        marker_57727541b2f1e9a6728bfbc6f0c82bb6.bindPopup(popup_9a7418083be8af52e32cd243d178268e)
+        ;
+
+        
+    
+    
+            var marker_5ee96ef7adfffc9619d5ab77637ca8c1 = L.marker(
+                [-15.773107801965622, -47.9210683653937],
+                {}
+            ).addTo(map_0df9331e8eb4aba1b84694c46a2ffe8c);
+        
+    
+        var popup_72853827e52333b3a1c92ed411cff689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ccef696444a2f9f7b22857eed0bcd24 = $(`<div id="html_6ccef696444a2f9f7b22857eed0bcd24" style="width: 100.0%; height: 100.0%;">     <div style="         font-family: Arial, sans-serif;         color: black;         background-color: #f9f9f9;         padding: 10px;         border-radius: 8px;         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);         width: 200px;     ">         <h3 style="color: #2c7efc;">Praça dos Cristais</h3>         <p><b>Pássaros:</b></p>         <ul>             <li>Andorinhão-do-buriti</li>             <li>Tesourinha</li>             <li>Sabiá-laranjeira</li>             <li>João-de-barro</li>             <li>Tucano</li>         </ul>     </div>     </div>`)[0];
+                popup_72853827e52333b3a1c92ed411cff689.setContent(html_6ccef696444a2f9f7b22857eed0bcd24);
+            
+        
+
+        marker_5ee96ef7adfffc9619d5ab77637ca8c1.bindPopup(popup_72853827e52333b3a1c92ed411cff689)
+        ;
+
+        
+    
+    
+            var marker_35fe02d4aaa7ef845d0feaee3c10799d = L.marker(
+                [-15.728447499079948, -47.892436752755486],
+                {}
+            ).addTo(map_0df9331e8eb4aba1b84694c46a2ffe8c);
+        
+    
+        var popup_a36894330c609033b746efe939b2b24a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4baad98fd7e3be8eb48ad5bd20b878fe = $(`<div id="html_4baad98fd7e3be8eb48ad5bd20b878fe" style="width: 100.0%; height: 100.0%;">     <div style="         font-family: Arial, sans-serif;         color: black;         background-color: #f9f9f9;         padding: 10px;         border-radius: 8px;         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);         width: 200px;     ">         <h3 style="color: #2c7efc;">Parque Vivencial do Lago Norte</h3>         <p><b>Pássaros:</b></p>         <ul>             <li>João-de-barro</li>             <li>Bem-te-vi</li>             <li>Sabiá-laranjeira</li>             <li>Quero-quero</li>             <li>Choca-barrada</li>             <li>Suiriri</li>             <li>Neinei</li>             <li>Pula-pula</li>             <li>Fim-fim</li>             <li>Garibaldi</li>             <li>Periquito-de-encontro-amarelo</li>             <li>Canário-da-terra</li>             <li>Tico-tico</li>             <li>Juriti-pupu</li>         </ul>     </div>     </div>`)[0];
+                popup_a36894330c609033b746efe939b2b24a.setContent(html_4baad98fd7e3be8eb48ad5bd20b878fe);
+            
+        
+
+        marker_35fe02d4aaa7ef845d0feaee3c10799d.bindPopup(popup_a36894330c609033b746efe939b2b24a)
+        ;
+
+        
+    
+</script>
+</html>
