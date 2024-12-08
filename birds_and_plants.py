@@ -188,4 +188,4 @@ folium.Marker(
     """
     ).add_to(the_map)
 
-the_map.save("birds_and_plants.html")
+the_map.save("index.html")
