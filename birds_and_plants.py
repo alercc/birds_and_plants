@@ -188,4 +188,65 @@ folium.Marker(
     """
     ).add_to(the_map)
 
+# Parque das Garças
+# _________________________________________________________________________
+# _________________________________________________________________________
+
+folium.Marker(
+    location=[-15.771311185878401, -47.832637310816544],
+    popup="""
+    <div style="
+        font-family: Arial, sans-serif;
+        color: black;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        width: 200px;
+    ">
+        <h3 style="color: #2c7efc;">Parque das Garças</h3>
+        <p><b>Pássaros:</b></p>
+        <ul>
+            <li>Pomba-asa-branca</li>
+            <li>Bem-te-vi</li>
+            <li>Quero-quero</li>
+            <li>João-de-barro</li>
+            <li>Biguá</li>
+            <li>Coruja-buraqueira</li>
+            <li>Periquito-de-encontro-amarelo</li>
+            <li>Canário-da-terra</li>
+            <li>Cardeal-do-nordeste</li>
+            <li>Garça-branca-pequena</li>
+            <li>Garça-branca-grande</li>
+            <li>Urubu-preto</li>
+            <li>Pica-pau-do-campo</li>
+            <li>Carcará</li>
+            <li>Carrapateiro</li>
+            <li>Suiriri</li>
+            <li>Sabiá-do-campo</li>
+            <li>Sabiá-barranco</li>
+            <li>Baiano</li>
+            <li>Ferreirinho-relógio</li>
+            <li>Sanhaço-do-coqueiro</li>
+        </ul>
+        <p><b>Plantas:</b></p>
+        <ul>
+            <li>Copaíba</li>
+            <li>Eucalipto</li>
+            <li>Coco-da-bahia</li>
+            <li>Dormideira</li>
+            <li>Canelinha</li>
+            <li>Ipomeia</li>
+            <li>Abiu piloso</li>
+            <li>Cajá-mirim</li>
+            <li>Palmeira-imperial</li>
+            <li>Xanana</li>
+            <li>Dendê</li>
+            <li>Jamelão</li>
+            <li>Jasmim-do-cerrado</li>
+        </ul>
+    </div>
+    """
+    ).add_to(the_map)
+
 the_map.save("index.html")
